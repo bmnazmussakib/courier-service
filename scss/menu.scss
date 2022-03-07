@@ -1,0 +1,38 @@
+@import "variables";
+
+// Header
+header {
+    box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+}
+
+.logo {
+    font-family: $font-dmSans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: $primary-color !important;
+}
+
+.sign-in-btn {
+    background-color: $primary-color !important;
+    color: $white-color !important;
+}
+
+.nav-item {
+    margin: 0 10px;
+    .nav-link {
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $title-color;
+
+        &:hover {
+            color: $primary-color !important;
+        }
+    }
+
+    
+}
