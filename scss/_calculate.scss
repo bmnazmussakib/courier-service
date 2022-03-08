@@ -22,67 +22,55 @@
         }
     }
     // Calculate title
-    .calculate-title {
-        color: #ffffff;
+    .section-title {
+        color: $white-color;
     }
     @media only screen and (max-width: 600px) {
-        .calculate-title {
-            font-size: 22px;
-            line-height: 27px;
+        .section-title {
             margin-bottom: 20px;
         }
     }
     @media only screen and (min-width: 600px) {
-        .calculate-title {
-            font-size: 22px;
-            line-height: 27px;
+        .section-title {
             margin-bottom: 20px;
         }
     }
     @media only screen and (min-width: 992px) {
-        .calculate-title {
+        .section-title {
             margin-bottom: 32px;
         }
     }
     @media only screen and (min-width: 768px) {
-        .calculate-title {
-            font-size: 34px;
-            line-height: 42px;
+        .section-title {
             margin-bottom: 32px;
         }
     }
     @media only screen and (min-width: 992px) {
-        .calculate-title {
-            font-size: 48px;
-            line-height: 60px;
+        .section-title {
             margin-bottom: 32px;
         }
     }
     // Calculate text
-    .calculate-text {
+    .section-text {
         color: #ffffff !important;
     }
     @media only screen and (max-width: 600px) {
-        .calculate-text {
-            font-size: 16px;
-            line-height: 20px;
+        .section-text {
             margin-bottom: 20px;
         }
     }
     @media only screen and (min-width: 600px) {
-        .calculate-text {
-            font-size: 16px;
-            line-height: 20px;
+        .section-text {
             margin-bottom: 20px;
         }
     }
     @media only screen and (min-width: 992px) {
-        .calculate-text {
+        .section-text {
             margin-bottom: 32px;
         }
     }
     @media only screen and (min-width: 768px) {
-        .calculate-text {
+        .section-text {
             margin-bottom: 32px;
         }
     }

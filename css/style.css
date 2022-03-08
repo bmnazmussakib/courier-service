@@ -62,7 +62,7 @@ h6 {
 // Global
 ==============================*/
 section {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 /*============================
@@ -76,6 +76,27 @@ section {
   color: #455A64;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .section-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .section-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
 /*============================
 //  section-text
 ============================*/
@@ -87,6 +108,20 @@ section {
   line-height: 22px;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 /*============================
 //  Button
 ============================*/
@@ -306,7 +341,6 @@ header {
 
 .section-title {
   margin-bottom: 10px;
-  font-weight: 700;
 }
 
 .service-title {
@@ -331,26 +365,8 @@ header {
     line-height: 27px;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .service-text {
-    font-size: 16px !important;
-    line-height: 20px !important;
-  }
-
-  .service-title {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-  }
-}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .section-title {
-    font-size: 34px;
-    line-height: 42px;
-  }
-
   .service-text-wrapper {
     margin-bottom: 30px;
   }
@@ -368,22 +384,12 @@ header {
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .section-title {
-    font-size: 48px;
-    line-height: 60px;
-  }
-
   .section-text {
     margin-bottom: 10px;
   }
 
   .delivery-text {
     margin-bottom: 0 !important;
-  }
-
-  .service-title {
-    font-size: 48px;
-    line-height: 60px;
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -413,66 +419,54 @@ header {
             justify-content: center;
   }
 }
-.calculate-section .calculate-title {
-  color: #ffffff;
+.calculate-section .section-title {
+  color: #FFFFFF;
 }
 @media only screen and (max-width: 600px) {
-  .calculate-section .calculate-title {
-    font-size: 22px;
-    line-height: 27px;
+  .calculate-section .section-title {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 600px) {
-  .calculate-section .calculate-title {
-    font-size: 22px;
-    line-height: 27px;
+  .calculate-section .section-title {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
-  .calculate-section .calculate-title {
+  .calculate-section .section-title {
     margin-bottom: 32px;
   }
 }
 @media only screen and (min-width: 768px) {
-  .calculate-section .calculate-title {
-    font-size: 34px;
-    line-height: 42px;
+  .calculate-section .section-title {
     margin-bottom: 32px;
   }
 }
 @media only screen and (min-width: 992px) {
-  .calculate-section .calculate-title {
-    font-size: 48px;
-    line-height: 60px;
+  .calculate-section .section-title {
     margin-bottom: 32px;
   }
 }
-.calculate-section .calculate-text {
+.calculate-section .section-text {
   color: #ffffff !important;
 }
 @media only screen and (max-width: 600px) {
-  .calculate-section .calculate-text {
-    font-size: 16px;
-    line-height: 20px;
+  .calculate-section .section-text {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 600px) {
-  .calculate-section .calculate-text {
-    font-size: 16px;
-    line-height: 20px;
+  .calculate-section .section-text {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) {
-  .calculate-section .calculate-text {
+  .calculate-section .section-text {
     margin-bottom: 32px;
   }
 }
 @media only screen and (min-width: 768px) {
-  .calculate-section .calculate-text {
+  .calculate-section .section-text {
     margin-bottom: 32px;
   }
 }
@@ -505,3 +499,15 @@ header {
     background-size: auto;
   }
 }
+.why-choose-section {
+  background-image: url("../assets/img/why-choose-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

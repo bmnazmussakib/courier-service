@@ -17,7 +17,6 @@
 
 .section-title {
     margin-bottom: 10px;
-    font-weight: 700;
 }
 
 .service-title {
@@ -44,28 +43,9 @@
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (min-width: 600px) {
-    .service-text {
-        font-size: 16px !important;
-        line-height: 20px !important;
-    }
-    .service-title {
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 27px;
-    }
-}
-
-
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .section-title {
-        font-size: 34px;
-        line-height: 42px;
-    }
     .service-text-wrapper {
         margin-bottom: 30px;
     }
@@ -84,19 +64,11 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .section-title {
-        font-size: 48px;
-        line-height: 60px;
-    }
     .section-text {
         margin-bottom: 10px;
     }
     .delivery-text {
         margin-bottom: 0 !important;
-    }
-    .service-title {
-        font-size: 48px;
-        line-height: 60px;
     }
 }
 
