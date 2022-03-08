@@ -15,27 +15,46 @@
     }
 }
 
+.section-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
 
-/* Small devices (landscape phones, 576px and up) */
+.service-title {
+    font-weight: 400;
+    color: #1a1a1a;
+}
 
-@media (max-width: 320px) {
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .service-img-wrapper {
+        margin-bottom: 25px;
+    }
     .service-text {
         font-size: 16px !important;
         line-height: 20px !important;
     }
+    .service-title {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+    }
 }
 
-@media (max-width: 375px) {
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
     .service-text {
         font-size: 16px !important;
         line-height: 20px !important;
     }
-}
-
-@media (min-width: 576px) {
-    .service-text {
-        font-size: 16px !important;
-        line-height: 20px !important;
+    .service-title {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
     }
 }
 
@@ -46,19 +65,18 @@
     .section-title {
         font-size: 34px;
         line-height: 42px;
-        width: 70%;
-        margin-bottom: 20px;
     }
-    .section-text {
-        width: 80%;
+    .service-text-wrapper {
         margin-bottom: 30px;
     }
     .service-img-wrapper {
-        margin-bottom: 30px;
-        // .service-img {
         width: 90%;
-        margin: 0 auto;
-        // }
+        margin: 0 auto 30px auto;
+    }
+    .service-title {
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
     }
 }
 
@@ -69,12 +87,16 @@
     .section-title {
         font-size: 48px;
         line-height: 60px;
-        width: 60%;
-        margin-bottom: 20px;
     }
     .section-text {
-        width: 80%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+    }
+    .delivery-text {
+        margin-bottom: 0 !important;
+    }
+    .service-title {
+        font-size: 48px;
+        line-height: 60px;
     }
 }
 

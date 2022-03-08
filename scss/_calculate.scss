@@ -1,0 +1,121 @@
+@import "variables";
+// Calculate
+.calculate-section {
+    background-color: #24273a;
+    background-image: url("../assets/img/arrow-bg.svg");
+    background-repeat: no-repeat;
+    @media only screen and (max-width: 600px) {
+        .calculate-content, .calculate-img-wrapper {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        .calculate-content,
+        .calculate-img-wrapper {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .calculate-img-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    // Calculate title
+    .calculate-title {
+        color: #ffffff;
+    }
+    @media only screen and (max-width: 600px) {
+        .calculate-title {
+            font-size: 22px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        .calculate-title {
+            font-size: 22px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        .calculate-title {
+            margin-bottom: 32px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        .calculate-title {
+            font-size: 34px;
+            line-height: 42px;
+            margin-bottom: 32px;
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        .calculate-title {
+            font-size: 48px;
+            line-height: 60px;
+            margin-bottom: 32px;
+        }
+    }
+    // Calculate text
+    .calculate-text {
+        color: #ffffff !important;
+    }
+    @media only screen and (max-width: 600px) {
+        .calculate-text {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        .calculate-text {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        .calculate-text {
+            margin-bottom: 32px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        .calculate-text {
+            margin-bottom: 32px;
+        }
+    }
+    // Calculate button
+    @media only screen and (max-width: 600px) {
+        .btn-one {
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        .btn-one {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .calculate-section {
+        background-position: 10px 61%;
+        background-size: 57%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .calculate-section {
+        background-position: 10% 60%;
+        background-size: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .calculate-section {
+        background-position: 42% 85%;
+        background-size: auto;
+    }
+}

@@ -87,6 +87,19 @@ section {
 
 
 /*============================
+//  section-text
+============================*/
+
+.section-text {
+    font-family: $font-redRose !important;
+    color: $text-color !important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+/*============================
 //  Button
 ============================*/
 
