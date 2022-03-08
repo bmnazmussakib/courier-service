@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+/* ===========================
+// Typography
+==============================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Rose", cursive !important;
+  color: #6C7D85 !important;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Red Rose", cursive;
+  color: #455A64;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 45px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* ===========================
+// Global
+==============================*/
+section {
+  padding: 80px 0;
+}
+
+/*============================
+//  section-title
+============================*/
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #455A64;
+}
+
+/*============================
+//  Button
+============================*/
+.btn-one {
+  background-color: #ED502E !important;
+  color: #FFFFFF !important;
+  border: 1px solid #ED502E !important;
+  padding: 16px 20px !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+}
+
+.btn-two {
+  background-color: #FFFFFF !important;
+  color: #ED502E !important;
+  border: 1px solid #ED502E !important;
+  padding: 16px 20px !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+}
+
+header {
+  -webkit-box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+          box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+}
+
+.logo {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ED502E !important;
+}
+
+.search-btn {
+  padding: 13px 20px !important;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+.nav-item .nav-link {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #455A64;
+}
+.nav-item .nav-link:hover {
+  color: #ED502E !important;
+}
+
+.banner-title {
+  font-weight: 700;
+}
+
+.section-text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.counter-title {
+  font-weight: 700;
+  color: #455A64;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 375px) {
+  .btn-one {
+    font-size: 14px !important;
+  }
+
+  .btn-two {
+    font-size: 14px !important;
+  }
+
+  .hero-img-wrapper {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 425px) {
+  .hero-img-wrapper {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .banner-title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    width: 50%;
+  }
+
+  .section-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  .hero-img-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .counter-wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .counter-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .counter-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero-content {
+    margin-bottom: 30px;
+  }
+
+  .banner-title {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 15px;
+    width: 70%;
+  }
+
+  .section-text {
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  .hero-img-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .counter-title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .counter-subtitle {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .banner-title {
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  .section-text {
+    margin-bottom: 15px;
+    width: 85%;
+  }
+
+  .counter-wrapper {
+    margin-top: 10px;
+  }
+
+  .counter-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .banner-title {
+    margin-bottom: 30px;
+  }
+
+  .section-text {
+    margin-bottom: 30px;
+  }
+
+  .counter-wrapper {
+    margin-top: -50px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .partner-title {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 27px !important;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+.service-section {
+  background: url("../assets/img/service bg.jpg");
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.service-icon-wrapper .service-icon {
+  background-color: #ffffff !important;
+  padding: 10px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06) !important;
+          box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06) !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 320px) {
+  .service-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+@media (max-width: 375px) {
+  .service-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+@media (min-width: 576px) {
+  .service-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 34px;
+    line-height: 42px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .section-text {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .service-img-wrapper {
+    margin-bottom: 30px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .section-title {
+    font-size: 48px;
+    line-height: 60px;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .section-text {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */

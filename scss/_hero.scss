@@ -1,4 +1,135 @@
-.hero-section{
-    background-color: $bg1;
-    padding: 100px 0;
+// Hero
+.hero-content {}
+
+.banner-title {
+    font-weight: 700;
+}
+
+.section-text {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.counter-title {
+    font-weight: 700;
+    color: $title-color;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 375px) {
+    .btn-one {
+        font-size: 14px !important;
+    }
+    .btn-two {
+        font-size: 14px !important;
+    }
+    .hero-img-wrapper {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 425px) {
+    .hero-img-wrapper {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .banner-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+    .section-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    .hero-img-wrapper {
+        margin-bottom: 20px;
+    }
+    .counter-wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .counter-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .counter-subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .hero-content {
+        margin-bottom: 30px;
+    }
+    .banner-title {
+        font-size: 34px;
+        line-height: 42px;
+        margin-bottom: 15px;
+        width: 70%;
+    }
+    .section-text {
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    .hero-img-wrapper {
+        margin-bottom: 30px;
+    }
+    .counter-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .counter-subtitle {
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .banner-title {
+        font-size: 64px;
+        line-height: 80px;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    .section-text {
+        margin-bottom: 15px;
+        width: 85%;
+    }
+    .counter-wrapper {
+        margin-top: 10px;
+    }
+    .counter-title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .banner-title {
+        margin-bottom: 30px;
+    }
+    .section-text {
+        margin-bottom: 30px;
+    }
+    .counter-wrapper {
+        margin-top: -50px;
+    }
 }

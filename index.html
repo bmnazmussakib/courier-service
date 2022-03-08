@@ -21,9 +21,9 @@
     />
 
     <!-- Fonts Links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Red+Rose:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Red+Rose:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
 
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/cf774075d0.js" crossorigin="anonymous"></script>
@@ -40,17 +40,21 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
                         <!-- Logo -->
-                        <a class="navbar-brand logo" href="#">
+                        <a class="navbar-brand logo" href="./">
                             <img src="./assets/img/logo.svg" alt="" width="30" height="30" class="d-inline-block align-text-top"> Design Lab
                         </a>
                         <!-- Toggle Button -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
                         <!-- Offcanvas -->
+
+
                         <!-- Menu -->
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                            <ul class="navbar-nav mb-2 mb-lg-0 ">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
@@ -71,7 +75,7 @@
                                 </li>
                             </ul>
                             <div class="ms-auto">
-                                <button class="btn sign-in-btn">Search</button>
+                                <button class="btn btn-one search-btn">Search</button>
                             </div>
                         </div>
                     </div>
@@ -89,33 +93,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <div class="hero-content">
-                        <h1>Your destination is our passion.</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <button>Track Parcel</button>
-                        <button>Send Parcel</button>
+                    <div counter-title ">
+                        <h1 class=" banner-title ">Your destination is our passion.</h1>
+                        <p class=" section-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <div class=" banner-btn ">
+                            <button class=" btn btn-one me-4 ">Track Parcel</button>
+                            <button class=" btn btn-two ">Send Parcel</button>
+                        </div>
 
-                        <div class="counter-wrapper d-flex justify-content-between w-50">
-                            <div class="text-center">
-                                <span class="counter ">100</span><span>K</span>
+                        <!-- <div class=" counter-wrapper d-flex ">
+                            <div class=" text-center me-4 ">
+                                <h2 class=" section-title "><span class=" counter ">100</span><span>K</span></h2>
                                 <p>Percels Delivered</p>
                             </div>
-                            <div class="text-center">
-                                <span class="counter ">60</span><span>K</span>
+                            <div class=" text-center me-4 ">
+                                <h2 class=" section-title "><span class=" counter ">60</span><span>K</span></h2>
                                 <p>Customers</p>
                             </div>
-                            <div class="text-center">
-                                <span class="counter ">15</span><span>K</span>
+                            <div class=" text-center ">
+                                <h2 class=" section-title "><span class=" counter ">15</span><span>K</span></h2>
                                 <p>Reviews</p>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="hero-img-wrapper">
-                        <img src="./assets/img/pana.svg" alt="" class="hero-img img-fluid">
+                <div class=" col-lg-5 ">
+                    <div class=" hero-img-wrapper ">
+                        <img src=" ./assets/img/pana.svg " alt=" " class=" hero-img img-fluid ">
                     </div>
+                </div>
+
+            </div>
+            <div class=" counter-wrapper d-flex ">
+                <div class=" text-center me-4 ">
+                    <h2 class=" counter-title "><span class=" counter ">100</span><span>K</span></h2>
+                    <p class=" counter-subtitle ">Percels Delivered</p>
+                </div>
+                <div class=" text-center me-4 ">
+                    <h2 class=" counter-title "><span class=" counter ">60</span><span>K</span></h2>
+                    <p class=" counter-subtitle ">Customers</p>
+                </div>
+                <div class=" text-center ">
+                    <h2 class=" counter-title "><span class=" counter ">15</span><span>K</span></h2>
+                    <p class=" counter-subtitle ">Reviews</p>
                 </div>
             </div>
         </div>
@@ -124,37 +145,25 @@
 
 
     <!-- Partner section -->
-    <section class="partner">
-        <div class="container">
-            <div class="partner-title">
-                <h3 class="text-center">Our Official Partners</h3>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="partner-img-wrapper">
-                        <img src="./assets/img/booking.svg" alt="">
+    <section class=" partner-section ">
+        <div class=" container ">
+                <h3 class=" text-center partner-title mb-4 ">Our Official Partners</h3>
+            <div class=" d-flex justify-content-between ">
+                    <div class=" partner-img-wrapper ">
+                        <img src=" ./assets/img/booking.svg " alt=" " class=" partner-img img-fluid ">
                     </div>
-                </div>
-                <div class="col">
-                    <div class="partner-img-wrapper">
-                        <img src="./assets/img/expedia.svg" alt="">
+                    <div class=" partner-img-wrapper ">
+                        <img src=" ./assets/img/expedia.svg " alt=" " class=" partner-img img-fluid ">
                     </div>
-                </div>
-                <div class="col">
-                    <div class="partner-img-wrapper">
-                        <img src="./assets/img/amazon.svg" alt="">
+                    <div class=" partner-img-wrapper ">
+                        <img src=" ./assets/img/amazon.svg " alt=" " class=" partner-img img-fluid ">
                     </div>
-                </div>
-                <div class="col">
-                    <div class="partner-img-wrapper">
-                        <img src="./assets/img/xiaomi.svg" alt="">
+                    <div class=" partner-img-wrapper ">
+                        <img src=" ./assets/img/xiaomi.svg " alt=" " class=" partner-img img-fluid ">
                     </div>
-                </div>
-                <div class="col">
-                    <div class="partner-img-wrapper">
-                        <img src="./assets/img/intel.svg" alt="">
+                    <div class=" partner-img-wrapper ">
+                        <img src=" ./assets/img/intel.svg " alt=" " class=" partner-img img-fluid ">
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -162,122 +171,122 @@
 
 
     <!-- Service section -->
-    <section class="service">
-        <div class="container">
-            <div class="row">
+    <section class=" service-section ">
+        <div class=" container ">
+            <div class=" service-section-title "> ">
+                        <h2 class=" section-title ">We provide services that you can rely on</h2>
+                        <p class=" section-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                    <div class=" row ">
+                        <div class=" col-lg-6 ">
 
-                <div class="col-lg-6">
-                    <div class="service-content">
-                        <h2>We provide services that you can rely on</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            <div class=" service-img-wrapper ">
+                                <img src=" ./assets/img/delivery.png " alt=" " class=" service-img img-fluid ">
+                            </div>
+                        </div>
+                        <!-- col-6 -->
+
+                        <div class=" col-lg-6 ">
+                            <div class=" service-list ">
+                                <!-- Single Service -->
+                                <div class=" row ">
+                                    <div class=" col-2 ">
+                                        <!-- icon -->
+                                        <div class=" service-icon-wrapper ">
+                                            <img src=" ./assets/img/booking-icon-png-10 1.svg " alt=" " class=" service-icon img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 ">
+                                        <div class=" service-text ">
+                                            <h2 class=" service-title ">Booking</h2>
+                                            <p class=" service-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
+                                        </div>
+                                    </div>
+                                    <!-- col-10 -->
+                                </div>
+                                <!-- row -->
+
+                                <!-- Single Service -->
+                                <div class=" row ">
+                                    <div class=" col-2 ">
+                                        <!-- icon -->
+                                        <div class=" service-icon-wrapper ">
+                                            <img src=" ./assets/img/delivery-truck 1.svg " alt=" " class=" service-icon img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 ">
+                                        <div class=" service-text ">
+                                            <h2 class=" service-title ">Booking</h2>
+                                            <p class=" section-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
+                                        </div>
+                                    </div>
+                                    <!-- col-10 -->
+                                </div>
+                                <!-- row -->
+
+                                <!-- Single Service -->
+                                <div class=" row ">
+                                    <div class=" col-2 ">
+                                        <!-- icon -->
+                                        <div class=" service-icon-wrapper ">
+                                            <img src=" ./assets/img/boxes 1.svg " alt=" " class=" service-icon img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 ">
+                                        <div class=" service-text ">
+                                            <h2 class=" service-title ">Booking</h2>
+                                            <p class=" section-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
+                                        </div>
+                                    </div>
+                                    <!-- col-10 -->
+                                </div>
+                                <!-- row -->
+
+                                <!-- Single Service -->
+                                <div class=" row ">
+                                    <div class=" col-2 ">
+                                        <!-- icon -->
+                                        <div class=" service-icon-wrapper ">
+                                            <img src=" ./assets/img/delivery-courier 1.svg " alt=" " class=" service-icon img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class=" col-10 ">
+                                        <div class=" service-text ">
+                                            <h2 class=" service-title ">Booking</h2>
+                                            <p class=" section-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
+                                        </div>
+                                    </div>
+                                    <!-- col-10 -->
+                                </div>
+                                <!-- row -->
+
+                            </div>
+                            <!-- service list -->
+                        </div>
+                        <!-- col-6 -->
                     </div>
-                    <div class="service-img-wrapper">
-                        <img src="./assets/img/delivery.png" alt="" class="service-img img-fluid">
-                    </div>
+                    <!-- row -->
                 </div>
-                <!-- col-6 -->
-
-                <div class="col-lg-6">
-                    <div class="service-list">
-                        <!-- Single Service -->
-                        <div class="row">
-                            <div class="col-2">
-                                <!-- icon -->
-                                <div class="service-icon-wrapper">
-                                    <img src="./assets/img/booking-icon-png-10 1.svg" alt="" class="service-icon img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-10">
-                                <div class="service-text">
-                                    <h2>Booking</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
-                                </div>
-                            </div>
-                            <!-- col-10 -->
-                        </div>
-                        <!-- row -->
-
-                        <!-- Single Service -->
-                        <div class="row">
-                            <div class="col-2">
-                                <!-- icon -->
-                                <div class="service-icon-wrapper">
-                                    <img src="./assets/img/delivery-truck 1.svg" alt="" class="service-icon img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-10">
-                                <div class="service-text">
-                                    <h2>Booking</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
-                                </div>
-                            </div>
-                            <!-- col-10 -->
-                        </div>
-                        <!-- row -->
-
-                        <!-- Single Service -->
-                        <div class="row">
-                            <div class="col-2">
-                                <!-- icon -->
-                                <div class="service-icon-wrapper">
-                                    <img src="./assets/img/boxes 1.svg" alt="" class="service-icon img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-10">
-                                <div class="service-text">
-                                    <h2>Booking</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
-                                </div>
-                            </div>
-                            <!-- col-10 -->
-                        </div>
-                        <!-- row -->
-
-                        <!-- Single Service -->
-                        <div class="row">
-                            <div class="col-2">
-                                <!-- icon -->
-                                <div class="service-icon-wrapper">
-                                    <img src="./assets/img/delivery-courier 1.svg" alt="" class="service-icon img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-10">
-                                <div class="service-text">
-                                    <h2>Booking</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.....More</p>
-                                </div>
-                            </div>
-                            <!-- col-10 -->
-                        </div>
-                        <!-- row -->
-
-                    </div>
-                    <!-- service list -->
-                </div>
-                <!-- col-6 -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
+                <!-- container -->
     </section>
     <!-- End Service section -->
 
 
     <!-- Calculate section -->
-    <section class="calculate">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="calculate-content">
-                        <h2>Get an instant quote!</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-                        <button>Calculate Price</button>
+    <section class=" calculate-section ">
+        <div class=" container ">
+            <div class=" row ">
+                <div class=" col-lg-6 ">
+                    <div class=" calculate-content ">
+                        <h2 class=" section-title calculate-title ">Get an instant quote!</h2>
+                        <p class=" section-text calculate-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                        <button class=" btn btn-one ">Calculate Price</button>
                     </div>
                 </div>
                 <!-- col-lg-6 -->
-                <div class="col-lg-6">
-                    <div class="calculate-img-wrapper">
-                        <img src="./assets/img/calculate.png" alt="" class="calculate-img img-fluid">
+                <div class=" col-lg-6 ">
+                    <div class=" calculate-img-wrapper ">
+                        <img src=" ./assets/img/calculate.png " alt=" " class=" calculate-img img-fluid ">
                     </div>
                 </div>
                 <!-- col-lg-6 -->
@@ -290,57 +299,58 @@
 
 
     <!-- Why choose section -->
-    <section class="why-choose">
-        <div class="container">
-            <div class="why-choose-text text-center">
-                <h2>Why choose Us</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+    <section class=" why-choose-section ">
+        <div class=" container ">
+            <div class=" why-choose-text text-center ">
+                <h2 class=" section-title ">Why choose Us</h2>
+                <p class=" section-text ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                </p>
             </div>
-            <div class="row">
+            <div class=" row ">
 
-                <div class="col-lg-3">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon-wrapper">
-                            <img src="./assets/img/order 1.svg" alt="" class="why-choose-icon img-fluid">
+                <div class=" col-lg-3 ">
+                    <div class=" why-choose-card ">
+                        <div class=" why-choose-icon-wrapper ">
+                            <img src=" ./assets/img/order 1.svg " alt=" " class=" why-choose-icon img-fluid ">
                         </div>
-                        <h5>Delivery confirmation with OTP</h5>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <h5 class=" card-title ">Delivery confirmation with OTP</h5>
+                        <p class=" card-text ">Lorem Ipsum has been the industry's standard dummy text ever</p>
                     </div>
                     <!-- why-choose-card -->
                 </div>
                 <!-- col-lg-3 -->
 
-                <div class="col-lg-3">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon-wrapper">
-                            <img src="./assets/img/fast-delivery 1.svg" alt="" class="why-choose-icon img-fluid">
+                <div class=" col-lg-3 ">
+                    <div class=" why-choose-card ">
+                        <div class=" why-choose-icon-wrapper ">
+                            <img src=" ./assets/img/fast-delivery 1.svg " alt=" " class=" why-choose-icon img-fluid ">
                         </div>
-                        <h5>Fastest Service</h5>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <h5 class=" card-title ">Fastest Service</h5>
+                        <p class=" card-text ">Lorem Ipsum has been the industry's standard dummy text ever</p>
                     </div>
                     <!-- why-choose-card -->
                 </div>
                 <!-- col-lg-3 -->
 
-                <div class="col-lg-3">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon-wrapper">
-                            <img src="./assets/img/tracking 1.svg" alt="" class="why-choose-icon img-fluid">
+                <div class=" col-lg-3 ">
+                    <div class=" why-choose-card ">
+                        <div class=" why-choose-icon-wrapper ">
+                            <img src=" ./assets/img/tracking 1.svg " alt=" " class=" why-choose-icon img-fluid ">
                         </div>
-                        <h5>Full Tracking</h5>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <h5 class=" card-title ">Full Tracking</h5>
+                        <p class=" card-text ">Lorem Ipsum has been the industry's standard dummy text ever</p>
                     </div>
                     <!-- why-choose-card -->
                 </div>
                 <!-- col-lg-3 -->
 
-                <div class="col-lg-3">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon-wrapper">
-                            <img src="./assets/img/cash-on-delivery 1.svg" alt="" class="why-choose-icon img-fluid">
+                <div class=" col-lg-3 ">
+                    <div class=" why-choose-card ">
+                        <div class=" why-choose-icon-wrapper ">
+                            <img src=" ./assets/img/cash-on-delivery 1.svg " alt=" " class=" why-choose-icon img-fluid ">
                         </div>
-                        <h5>Cash on Delivery</h5>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <h5 class=" card-title ">Cash on Delivery</h5>
+                        <p class=" card-text ">Lorem Ipsum has been the industry's standard dummy text ever</p>
                     </div>
                     <!-- why-choose-card -->
                 </div>
@@ -353,44 +363,44 @@
 
 
     <!-- Testimonial section -->
-    <section class="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 order-lg-1 order-2">
-                    <div class="testimonial-img-wrapper">
-                        <img src="./assets/img/testimonial.svg" alt="" class="testimonial-img img-fluid">
+    <section class=" testimonial-section ">
+        <div class=" container ">
+            <div class=" row ">
+                <div class=" col-lg-6 order-lg-1 order-2 ">
+                    <div class=" testimonial-img-wrapper ">
+                        <img src=" ./assets/img/testimonial.svg " alt=" " class=" testimonial-img img-fluid ">
                     </div>
                 </div>
                 <!-- col -->
 
-                <div class="col-lg-6 order-lg-2 order-1">
-                    <div class="testimonial-slider-wrapper">
-                        <div class="testimonial-title">
+                <div class=" col-lg-6 order-lg-2 order-1 ">
+                    <div class=" testimonial-slider-wrapper ">
+                        <div class=" section-title ">
                             <h2>What pepole say</h2>
                         </div>
-                        <div class="testimonial-slider">
+                        <div class=" testimonial-slider ">
 
-                            <div class="owl-carousel">
+                            <div class=" owl-carousel ">
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                                 <div>
-                                    <img src="./assets/img/testimonial-slider.png" alt="" class="img-fluid">
+                                    <img src=" ./assets/img/testimonial-slider.png " alt=" " class=" img-fluid ">
                                 </div>
                             </div>
                         </div>
@@ -407,62 +417,62 @@
 
     <!-- Footer section -->
     <footer>
-        <div class="container">
-            <div class="row">
+        <div class=" container ">
+            <div class=" row ">
 
-                <div class="col-lg-3">
-                    <div class="footer-logo-wrapper">
-                        <a class="navbar-brand" href="#">
-                            <img src="./assets/img/footer-logo.svg" alt="" width="30" height="30" class="d-inline-block align-text-top footer-logo img-fluid"> Design Lab
+                <div class=" col-lg-3 ">
+                    <div class=" footer-logo-wrapper ">
+                        <a class=" navbar-brand " href=" # ">
+                            <img src=" ./assets/img/footer-logo.svg " alt=" " width=" 30 " height=" 30 " class=" d-inline-block align-text-top footer-logo img-fluid "> Design Lab
                         </a>
                     </div>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet.</p>
                 </div>
                 <!-- col -->
 
-                <div class="col-lg col-12">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Quick Links</h5>
-                        <ul class="footer-widget-list">
-                            <li class="a">Home</li>
-                            <li class="a">About us</li>
-                            <li class="a">Service</li>
-                            <li class="a">Notice</li>
-                            <li class="a">Tracking</li>
+                <div class=" col-lg col-12 ">
+                    <div class=" footer-widget ">
+                        <h5 class=" footer-widget-title ">Quick Links</h5>
+                        <ul class=" footer-widget-list ">
+                            <li class=" a ">Home</li>
+                            <li class=" a ">About us</li>
+                            <li class=" a ">Service</li>
+                            <li class=" a ">Notice</li>
+                            <li class=" a ">Tracking</li>
                         </ul>
                     </div>
                 </div>
                 <!-- col -->
-                <div class="col-lg col-12">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Service</h5>
-                        <ul class="footer-widget-list">
-                            <li class="a">Booking</li>
-                            <li class="a">Transportation</li>
-                            <li class="a">Packing</li>
-                            <li class="a">Delivery</li>
+                <div class=" col-lg col-12 ">
+                    <div class=" footer-widget ">
+                        <h5 class=" footer-widget-title ">Service</h5>
+                        <ul class=" footer-widget-list ">
+                            <li class=" a ">Booking</li>
+                            <li class=" a ">Transportation</li>
+                            <li class=" a ">Packing</li>
+                            <li class=" a ">Delivery</li>
                         </ul>
                     </div>
                 </div>
                 <!-- col -->
-                <div class="col-lg col-12">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Support</h5>
-                        <ul class="footer-widget-list">
-                            <li class="a"><i class="fa-solid fa-location-dot"></i> 1901 Thornridge Cir,US</li>
-                            <li class="a"><i class="fa-solid fa-phone"></i> (480) 555-0103</li>
-                            <li class="a"><i class="fa-solid fa-envelope"></i>alma.lawson@example.com</li>
+                <div class=" col-lg col-12 ">
+                    <div class=" footer-widget ">
+                        <h5 class=" footer-widget-title ">Support</h5>
+                        <ul class=" footer-widget-list ">
+                            <li class=" a "><i class=" fa-solid fa-location-dot "></i> 1901 Thornridge Cir,US</li>
+                            <li class=" a "><i class=" fa-solid fa-phone "></i> (480) 555-0103</li>
+                            <li class=" a "><i class=" fa-solid fa-envelope "></i>alma.lawson@example.com</li>
                         </ul>
                     </div>
                 </div>
                 <!-- col -->
-                <div class="col-lg col-12">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Follow Un on</h5>
-                        <ul class="footer-widget-list">
-                            <li class="a"><i class="fa-brands fa-facebook-square"></i> facebook</li>
-                            <li class="a"><i class="fa-brands fa-twitter-square"></i> Twitter</li>
-                            <li class="a"><i class="fa-brands fa-instagram-square"></i> Instagram</li>
+                <div class=" col-lg col-12 ">
+                    <div class=" footer-widget ">
+                        <h5 class=" footer-widget-title ">Follow Un on</h5>
+                        <ul class=" footer-widget-list ">
+                            <li class=" a "><i class=" fa-brands fa-facebook-square "></i> facebook</li>
+                            <li class=" a "><i class=" fa-brands fa-twitter-square "></i> Twitter</li>
+                            <li class=" a "><i class=" fa-brands fa-instagram-square "></i> Instagram</li>
                         </ul>
                     </div>
                 </div>
@@ -471,7 +481,7 @@
             <!-- row -->
         </div>
         <!-- container -->
-        <div class="copyright text-center">
+        <div class=" copyright text-center ">
             <h6>Copyright © 2000-2021 Design lab. All right reserved</h6>
         </div>
     </footer>
@@ -483,13 +493,13 @@
 
 
     <!-- JS Links -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/plugin/counter/waypoints.min.js"></script>
-    <script src="./js/plugin/counter/jquery.counterup.js"></script>
-    <script src="./js/plugin/owl-carousel/owl.carousel.min.js"></script>
+    <script src=" ./js/jquery.min.js "></script>
+    <script src=" ./js/popper.min.js "></script>
+    <script src=" ./js/bootstrap.js "></script>
+    <script src=" ./js/script.js "></script>
+    <script src=" ./js/plugin/counter/waypoints.min.js "></script>
+    <script src=" ./js/plugin/counter/jquery.counterup.js "></script>
+    <script src=" ./js/plugin/owl-carousel/owl.carousel.min.js "></script>
 
 </body>
 

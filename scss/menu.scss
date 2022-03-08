@@ -1,5 +1,4 @@
 @import "variables";
-
 // Header
 header {
     box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
@@ -13,14 +12,14 @@ header {
     color: $primary-color !important;
 }
 
-.sign-in-btn {
-    background-color: $primary-color !important;
-    color: $white-color !important;
+.search-btn {
+    padding: 13px 20px !important;
 }
 
 .nav-item {
     margin: 0 10px;
     .nav-link {
+        font-family: $font-dmSans;
         font-size: 16px !important;
         font-style: normal;
         font-weight: 400;
@@ -28,11 +27,8 @@ header {
         letter-spacing: 0em;
         text-align: left;
         color: $title-color;
-
         &:hover {
             color: $primary-color !important;
         }
     }
-
-    
 }
