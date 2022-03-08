@@ -82,7 +82,7 @@ section {
     font-size: 48px;
     line-height: 60px;
     color: $title-color;
-    // margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,13 +118,10 @@ section {
     font-family: $font-redRose !important;
     color: $text-color !important;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
 }
 
 @media only screen and (max-width: 600px) {
     .section-text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 20px;
     }
@@ -132,9 +129,15 @@ section {
 
 @media only screen and (min-width: 600px) {
     .section-text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .section-text {
+        font-size: 18px;
+        line-height: 22px;
     }
 }
 

@@ -74,6 +74,7 @@ section {
   font-size: 48px;
   line-height: 60px;
   color: #455A64;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,22 +105,24 @@ section {
   font-family: "Red Rose", cursive !important;
   color: #6C7D85 !important;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
 }
 
 @media only screen and (max-width: 600px) {
   .section-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
   }
 }
 @media only screen and (min-width: 600px) {
   .section-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .section-text {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 /*============================
@@ -181,18 +184,13 @@ header {
   font-weight: 700;
 }
 
-.section-text {
-  font-size: 18px;
-  line-height: 22px;
-}
-
 .counter-title {
   font-weight: 700;
   color: #455A64;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 375px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .btn-one {
     font-size: 14px !important;
   }
@@ -204,13 +202,14 @@ header {
   .hero-img-wrapper {
     margin-bottom: 20px;
   }
-}
-@media (min-width: 425px) {
-  .hero-img-wrapper {
-    margin-bottom: 20px;
+
+  .counter-wrapper {
+    width: 95%;
+    margin: 0 auto;
   }
 }
-@media (min-width: 576px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   .banner-title {
     font-size: 24px;
     line-height: 30px;
@@ -292,6 +291,7 @@ header {
 
   .counter-wrapper {
     margin-top: 10px;
+    margin-left: 0 !important;
   }
 
   .counter-title {
@@ -311,6 +311,7 @@ header {
 
   .counter-wrapper {
     margin-top: -50px;
+    margin-left: 0 !important;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -500,14 +501,92 @@ header {
   }
 }
 .why-choose-section {
+  background-color: #FFFFFF;
   background-image: url("../assets/img/why-choose-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.why-choose-text {
+  margin-bottom: 40px;
+}
+
+.why-choose-card {
+  width: 271px;
+  height: 252px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+          box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+  border-radius: 10px;
+}
+
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .why-choose-section {
+    background-position: -18rem 0rem;
+    background-size: 50rem;
+    padding: 20px 0 !important;
+  }
+
+  .why-choose-card-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .why-choose-card {
+    margin: 0 auto 32px auto;
+  }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .why-choose-section {
+    background-position: -18rem 0rem;
+    background-size: 50rem;
+    padding: 20px 0 !important;
+  }
+
+  .why-choose-card-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .why-choose-card {
+    margin: 0 auto 32px auto;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .why-choose-section {
+    padding: 20px 0 !important;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .why-choose-text > .section-text {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .why-choose-card-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .why-choose-card {
+    margin: 0 auto 32px auto;
+  }
+}
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .why-choose-section {
+    padding: 64px 0 !important;
+  }
+
+  .why-choose-text > .section-text {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
