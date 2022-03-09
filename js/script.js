@@ -6,7 +6,7 @@ $(document).ready(function() {
     // counter
     $('.counter').counterUp({
         delay: 100,
-        time: 1000
+        time: 3000
     });
 
     // Carousel

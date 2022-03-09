@@ -163,6 +163,11 @@ ul li a {
 ul li a img {
   margin-right: 10px;
 }
+ul li:hover a {
+  color: #ED502E !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 
 header {
   -webkit-box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
@@ -171,11 +176,7 @@ header {
 }
 
 .logo {
-  font-family: "DM Sans", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #ED502E !important;
+  margin-bottom: 8px;
 }
 
 .search-btn {
@@ -197,6 +198,13 @@ header {
 }
 .nav-item .nav-link:hover {
   color: #ED502E !important;
+}
+
+.offcanvas-body {
+  margin-left: auto;
+}
+.offcanvas-body ul li a {
+  text-align: end !important;
 }
 
 .banner-title {
@@ -753,6 +761,14 @@ header {
   border-bottom: 1px solid #D7D7D7;
 }
 
+.footer-logo {
+  margin-bottom: 15px;
+}
+
+.footer-widget-title {
+  margin-bottom: 30px;
+}
+
 .copyright {
   padding: 30px 0;
 }
@@ -774,6 +790,10 @@ header {
 
   .footer-widget-wrapper {
     text-align: center;
+  }
+
+  .footer-widget-title {
+    margin-bottom: 20px;
   }
 
   .footer-widget {
@@ -803,6 +823,10 @@ header {
 
   .footer-widget {
     margin-bottom: 40px;
+  }
+
+  .footer-widget-title {
+    margin-bottom: 20px;
   }
 
   .footer-widget-wrapper {

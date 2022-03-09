@@ -35,6 +35,7 @@
 
     <!-- Header -->
     <header>
+        <!-- top menu  -->
         <div class="header-main">
             <div class="container">
 
@@ -42,12 +43,15 @@
                     <div class="container-fluid">
                         <!-- Logo -->
                         <a class="navbar-brand logo" href="./">
-                            <img src="./assets/img/logo.svg" alt="" width="30" height="30" class="d-inline-block align-text-top"> Design Lab
+                            <img src="./assets/img/header-logo.svg" alt="" class="">
                         </a>
                         <!-- Toggle Button -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            123
+                           </button> -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                            123
+                           </button>
 
 
                         <!-- Offcanvas -->
@@ -79,12 +83,49 @@
                                 <button class="btn btn-one search-btn">Search</button>
                             </div>
                         </div>
+
                     </div>
                 </nav>
 
 
             </div>
         </div>
+        <!-- top menu  -->
+
+        <!-- side menu  -->
+        <!-- <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"> -->
+        <div class="offcanvas offcanvas-end " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <!-- <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div> -->
+            <div class="offcanvas-body">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tracking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                </ul>
+                <div class="text-end">
+                    <button class="btn btn-one search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+        <!-- side menu  -->
     </header>
     <!-- End Header -->
 
@@ -484,10 +525,9 @@
     <!-- Footer section -->
     <footer>
         <div class=" container ">
-            <div class=" footer-logo-wrapper-top mb-4 d-lg-none d-md-block ">
-                <a href="./" class="mb-3 footer-logo text-decoration-none d-flex align-items-center">
-                    <img src=" ./assets/img/footer-logo.svg " alt=" " width=" 30 " height=" 30 " class=" d-inline-block align-text-top footer-logo img-fluid " />
-                    <span class="footer-logo-text ">Design Lab</span>
+            <div class=" footer-logo-wrapper-top d-lg-none d-md-block mb-4">
+                <a href="./" class="footer-logo text-decoration-none d-flex align-items-center">
+                    <img src=" ./assets/img/footer-logo.svg " alt=" " class="img-fluid " />
                 </a>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet.</p>
 
@@ -495,10 +535,9 @@
 
             <div class=" row footer-widget-wrapper ">
                 <div class=" col-lg-3 col-12 d-none d-lg-block">
-                    <div class=" footer-logo-wrapper mb-3 ">
-                        <a href="./" class="footer-logo text-decoration-none d-flex align-items-center">
-                            <img src=" ./assets/img/footer-logo.svg " alt=" " width=" 30 " height=" 30 " class=" d-inline-block align-text-top footer-logo img-fluid " />
-                            <span class="footer-logo-text ">Design Lab</span>
+                    <div class=" footer-logo-wrapper ">
+                        <a href="./" class="footer-logo">
+                            <img src=" ./assets/img/footer-logo.svg " alt=" " class=" d-inline-block align-text-top footer-logo img-fluid " />
                         </a>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet.</p>
 
