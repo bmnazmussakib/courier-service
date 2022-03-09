@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Rose:wght@300;400;500;600;700&display=swap");
 /* ===========================
 // Typography
 ==============================*/
@@ -144,6 +144,21 @@ section {
   padding: 16px 20px !important;
   border-radius: 8px !important;
   font-size: 16px !important;
+}
+
+/*============================
+//  List
+============================*/
+ul {
+  padding-left: 0 !important;
+}
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+ul li a {
+  text-decoration: none;
+  color: #6C7D85;
 }
 
 header {
@@ -542,8 +557,8 @@ header {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .why-choose-section {
-    background-position: -18rem 0rem;
-    background-size: 50rem;
+    background-position: 80% 0%;
+    background-size: 190%;
     padding: 20px 0 !important;
   }
 
@@ -559,9 +574,9 @@ header {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .why-choose-section {
+    background-position: 80% 0%;
+    background-size: 190%;
     padding: 20px 0 !important;
-    background-position: center center;
-    background-size: cover;
   }
 
   .why-choose-text > .section-text {
@@ -589,4 +604,212 @@ header {
     margin: 0 auto;
   }
 }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.testimonial-section {
+  background-color: #FFFFFF;
+  background-image: url("../assets/img/testimonial-bg.png");
+  background-repeat: no-repeat;
+}
+
+.testimonial-slider-wrapper h2 {
+  position: relative;
+}
+
+.testimonial-content {
+  background-color: #FFFFFF;
+  border-left: 24px solid #ED502E;
+  -webkit-box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+  box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: -5em;
+  right: 0rem;
+}
+.owl-carousel .owl-nav button i {
+  font-size: 24px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  margin-right: 20px;
+}
+.owl-carousel .owl-nav .owl-prev:hover i {
+  color: #ED502E !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.owl-carousel .owl-nav .owl-next:hover i {
+  color: #ED502E !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.testimonial-text h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ED502E;
+}
+.testimonial-text p {
+  font-family: "Red Rose", cursive !important;
+  color: #6C7D85 !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .testimonial-section {
+    background-position: 74% 62%;
+    background-size: 172%;
+  }
+
+  .testimonial-slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .testimonial-content {
+    padding: 15px 18px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .testimonial-section {
+    background-position: 74% 62%;
+    background-size: 172%;
+  }
+
+  .testimonial-slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .testimonial-section {
+    background-position: 48% 72%;
+    background-size: 126%;
+  }
+
+  .carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .testimonial-section {
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .testimonial-section {
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+}
+.footer-logo-text {
+  color: #455A64;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  margin-left: 10px;
+}
+
+.footer-widget-wrapper {
+  border-bottom: 1px solid #D7D7D7;
+}
+
+.copyright {
+  padding: 30px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer-logo-wrapper-top {
+    text-align: center;
+  }
+  .footer-logo-wrapper-top .footer-logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-logo-wrapper-top p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-widget-wrapper {
+    text-align: center;
+  }
+
+  .footer-widget {
+    margin-bottom: 40px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .footer-logo-wrapper-top {
+    text-align: center;
+  }
+  .footer-logo-wrapper-top .footer-logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-logo-wrapper-top p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-widget-wrapper {
+    text-align: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer-logo-wrapper-top {
+    text-align: center;
+  }
+  .footer-logo-wrapper-top .footer-logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-logo-wrapper-top p {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .service,
+.follow-us {
+    float: right;
+  }
+
+  .footer-widget {
+    margin-bottom: 40px;
+  }
+
+  .footer-widget-wrapper {
+    width: 90%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */

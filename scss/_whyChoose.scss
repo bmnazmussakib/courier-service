@@ -44,8 +44,8 @@
 
 @media only screen and (min-width: 600px) {
     .why-choose-section {
-        background-position: -18rem 0rem;
-        background-size: 50rem;
+        background-position: 80% 0%;
+        background-size: 190%;
         padding: 20px 0 !important;
     }
     .why-choose-card-wrapper {
@@ -62,9 +62,9 @@
 
 @media only screen and (min-width: 768px) {
     .why-choose-section {
+        background-position: 80% 0%;
+        background-size: 190%;
         padding: 20px 0 !important;
-        background-position: center center;
-        background-size: cover;
     }
     .why-choose-text>.section-text {
         width: 70%;
