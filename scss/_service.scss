@@ -1,8 +1,9 @@
 @import "variables";
 .service-section {
-    background: url("../assets/img/service\ bg.jpg");
-    background-position: right center;
-    background-size: cover;
+    background: $white-color;
+    background-image: url("../assets/img/service-bg.svg");
+    background-position: -20% 10%;
+    background-size: 80%;
     background-repeat: no-repeat;
 }
 
@@ -40,6 +41,11 @@
         font-size: 22px;
         line-height: 27px;
     }
+    .service-section {
+        background-image: url("../assets/img/service-bg-md.svg");
+        background-position: 0% 33%;
+        background-size: 96%;
+    }
 }
 
 
@@ -57,6 +63,11 @@
         font-weight: bold;
         font-size: 34px;
         line-height: 42px;
+    }
+    .service-section {
+        background-image: url("../assets/img/service-bg-md.svg");
+        background-position: 0% 28%;
+        background-size: 85%;
     }
 }
 

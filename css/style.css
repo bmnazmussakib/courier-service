@@ -160,6 +160,9 @@ ul li a {
   text-decoration: none;
   color: #6C7D85;
 }
+ul li a img {
+  margin-right: 10px;
+}
 
 header {
   -webkit-box-shadow: 0px 4px 56px rgba(237, 80, 46, 0.06);
@@ -341,9 +344,10 @@ header {
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 .service-section {
-  background: url("../assets/img/service bg.jpg");
-  background-position: right center;
-  background-size: cover;
+  background: #FFFFFF;
+  background-image: url("../assets/img/service-bg.svg");
+  background-position: -20% 10%;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 
@@ -380,6 +384,12 @@ header {
     font-size: 22px;
     line-height: 27px;
   }
+
+  .service-section {
+    background-image: url("../assets/img/service-bg-md.svg");
+    background-position: 0% 33%;
+    background-size: 96%;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -396,6 +406,12 @@ header {
     font-weight: bold;
     font-size: 34px;
     line-height: 42px;
+  }
+
+  .service-section {
+    background-image: url("../assets/img/service-bg-md.svg");
+    background-position: 0% 28%;
+    background-size: 85%;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -414,27 +430,6 @@ header {
   background-image: url("../assets/img/arrow-bg.svg");
   background-repeat: no-repeat;
 }
-@media only screen and (max-width: 600px) {
-  .calculate-section .calculate-content, .calculate-section .calculate-img-wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .calculate-section .calculate-content,
-.calculate-section .calculate-img-wrapper {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .calculate-section .calculate-img-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 .calculate-section .section-title {
   color: #FFFFFF;
 }
@@ -446,11 +441,6 @@ header {
 @media only screen and (min-width: 600px) {
   .calculate-section .section-title {
     margin-bottom: 20px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .calculate-section .section-title {
-    margin-bottom: 32px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -476,12 +466,12 @@ header {
     margin-bottom: 20px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .calculate-section .section-text {
     margin-bottom: 32px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .calculate-section .section-text {
     margin-bottom: 32px;
   }
@@ -499,14 +489,33 @@ header {
 
 @media only screen and (max-width: 600px) {
   .calculate-section {
-    background-position: 10px 61%;
-    background-size: 57%;
+    background-image: url(../assets/img/calculate-bg-sm.svg);
+    background-position: 30px 61%;
+    background-size: 75%;
+  }
+
+  .calculate-img-wrapper {
+    width: 80% !important;
+    margin: 0 auto !important;
   }
 }
 @media only screen and (min-width: 768px) {
   .calculate-section {
-    background-position: 10% 60%;
-    background-size: auto;
+    background-image: url("../assets/img/calculate-bg-md.svg");
+    background-position: 32% 55%;
+    background-size: 60%;
+  }
+
+  .calculate-img-wrapper {
+    margin-top: 5rem !important;
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -765,24 +774,6 @@ header {
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .footer-logo-wrapper-top {
-    text-align: center;
-  }
-  .footer-logo-wrapper-top .footer-logo {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .footer-logo-wrapper-top p {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .footer-widget-wrapper {
-    text-align: center;
-  }
-}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .footer-logo-wrapper-top {
@@ -809,7 +800,19 @@ header {
 
   .footer-widget-wrapper {
     width: 90%;
+    margin: 0 auto !important;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer-widget-wrapper {
+    width: 100%;
+    margin: auto !important;
+  }
+
+  .service,
+.follow-us {
+    float: left;
+  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
