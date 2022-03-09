@@ -428,7 +428,6 @@ header {
 /* Extra large devices (large desktops, 1200px and up) */
 .calculate-section {
   background-color: #24273a;
-  background-image: url("../assets/img/arrow-bg.svg");
   background-repeat: no-repeat;
 }
 .calculate-section .section-title {
@@ -521,8 +520,15 @@ header {
 }
 @media only screen and (min-width: 992px) {
   .calculate-section {
+    background-image: url("../assets/img/arrow-bg.svg");
     background-position: 42% 85%;
     background-size: auto;
+  }
+
+  .calculate-img-wrapper {
+    margin: 0 !important;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 .why-choose-section {
